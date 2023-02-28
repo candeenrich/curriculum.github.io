@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="archivos/iconnn.webp">
+    <script src="https://kit.fontawesome.com/c52a0153cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+    
+    <div id="cont">
+        <div id="img">
+            <img src="archivos/peytonperkins.jpg" id="img"
+             alt = "Mujer" 
+             ALIGN=MIDDLE
+             width="100%"
+             height="700px"/>
+
+        </div>
+
+        <div id="nombre">
+            <h1>Peyton Perkins</h1>
+            <h2>Recepcionista</h2>
+        </div>
+        
+        <div id="perfil">
+         <h2>Perfil</h2>
+         <hr/>
+         <p>Recepcionista con más de 5 años de experiencia trabajando en hoteles tanto nacionales
+            como internacionales. En mi actual puesto dentro del Hotel La Rue, ubicado en Buenos Aires,
+            atiendo a un promedio de 80 clientes diarios de diversas partes del mundo y me encargo de la
+            alocación de habitaciones y los procesos de check-in y check-out. Deseo utilizar mis habilidades
+            profesionales para atender a los huespedes del Hotel Almaguer.</p>
+        </div>
+
+        <div id="for_academica">
+             <h2>Formación Academica</h2>
+             <hr/>
+             <h3>Grado en turísmo Bilingüe</h3>
+             <p>Universidad Nebrijas<br>
+            - Semestre internacional en Reino Unido enfocado en hotelería.</p>
+        </div>
+
+        <div id="exp_laboral">
+            <h2>Experiencia Laboral</h2>
+            <hr/>
+            <h3>Recepcionista</h3>
+            <p>Hotel La Rue<br>
+            - Procese un promedio de 120 reservaciones semanales.<br>
+            - Coordiné a los equipos de camareras y limpiadores para preparar cada habitación antes de la llegada de los huéspedes.<br>
+            - Me comuniqué efectivamente en francés, español e inglés con los huéspedes para resolver sus dudas y preguntas.<br>
+            - Obtuve un porcentaje de satisfacción al cliente de 9.3.</p>
+
+            <h3>Recepcionista</h3>
+            <p>Hotel el Ascendente<br>
+            - Atendí a un promedio de 80 clientes semanales originarios de España y el resto de la Unión Europea.<br>
+            - Respodí a mas de 50 correos electrónicos y llamadas tanto en español, como en inglés y francés para concretar las reservaciones de nuestros clientes.<br>
+            - Ofrecí consejos personalizados y turísticos para los huéspedes del hotel.<br>
+             - Atendí turnos matutinos y vespertinos y me aseguré del cobro y el proceso de check-out de cada huésped.</p>
+       </div>
+
+        <div id="contactar">
+            <button id="boton1" type="button" onclick="mostrar()">CONTACTAR</button><br>
+        </div>
+
+        <div id="contacto">
+             <h2>Contacto</h2>
+
+                 <hr/>
+
+             <h3>Email:</h3>
+                <div id="cont-mail">
+                 <i id="icon1"class="fa-sharp fa-solid fa-envelope"></i><p id="mail">peyton.perkins@example.com</p>
+                </div>
+                 <button type="button" id="copymail" onclick=copiar()>Copiar Mail</button>
+
+             <h3>Dirección:</h3>
+                <div  id="cont-direc">
+                 <i id="icon2"class="fa-sharp fa-solid fa-location-dot"></i><p id="direccion">3115 Camden Ave</p><br>
+                </div>
+                 <button type="button" id="copydirec" onclick=copiarDireccion()>Copiar Dirección</button>
+
+                 
+            <h3>Número:</h3>
+                <div id="cont-num">
+                 <i id="icon3"class="fa-sharp fa-solid fa-phone"></i><p id="num">(711) 409-9818</p>
+                </div>
+                 <button type="button"  id="copynum" onclick=copiarNum()>Copiar Número</button>
+
+        </div>
+    </div>
+</body>
+</html>

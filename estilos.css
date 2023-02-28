@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(184, 159, 127)
+}
+#cont {
+   width: 80%;
+   max-width: 1000px;
+   font-family: 'Montserrat', sans-serif;
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: 500px auto auto;
+   grid-template-rows: auto auto auto auto;
+   margin: 20px auto;
+}
+
+#cont > #nombre {
+    grid-column: 2 / 4;
+    font-size: xx-large;
+}
+
+#cont > div {
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgb(233, 227, 217);
+}
+
+#cont > #img {
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    background-color: rgb(128, 118, 185);
+    justify-content: center;
+    width: 100%;
+}
+
+#cont > #perfil {
+   grid-column: 1 / 4;
+}
+
+#cont > #exp_laboral {
+   grid-column: 2 / 4;
+}
+
+#cont > #contacto {
+    color: white;
+    background-color: rgb(128, 118, 185);
+    grid-column: 1 / 4;
+    visibility: hidden;
+}
+
+#cont > #contactar {
+    grid-column: 1 / 4;
+    font-style: unset;
+    font-size:larger;
+    text-align: center;
+}
+
+#cont > #contactar > #boton1 {
+    background-color:  rgb(138, 165, 214);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#cont #contacto > #copydirec, #copynum, #copymail{
+    padding: 5px;
+    background-color: rgb(117, 190, 166);
+    border-radius: 4px;
+    align-items: center;
+    border-bottom: 1px;
+    border-color: rgb(74, 134, 114)
+}
+
+#cont > #contacto > #cont-mail> #icon1{
+    padding: 15px;
+}
+
+#cont > #contacto > #cont-direc> #icon2{
+    padding: 15px;
+}
+
+#cont > #contacto > #cont-num> #icon3{
+    padding: 15px;
+}
+
+#cont > #contacto > #cont-mail, #cont-direc, #cont-num {
+    display: flex;
+}
+
+@media screen  and (max-width: 800px){
+    #cont > #nombre {
+        grid-column: 1 / 4;
+    }
+
+    #cont > #exp_laboral {
+        grid-column: 1 / 4;
+    }
+
+    #cont > #img {
+        grid-column: 1 / 4;
+    }
+
+    #cont > #for_academica {
+        grid-column: 1 / 4;
+    }
+}
